@@ -1,0 +1,26 @@
+$borders:5px outset orange;
+#allThisRestimony{
+    border:$borders;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    background-color: white; 
+    padding-left: 2%;
+    padding-left: 1%;  
+    .borderStyle{
+        width: 90%;
+        float: right;
+        background-color:beige;
+        margin: 0.5rem;
+        border:2px outset orange;
+        height: 1.5rem;
+        text-align: center;
+    }
+}
+iframe {
+    float: left;
+    margin-right:20px;;
+}
+button{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}

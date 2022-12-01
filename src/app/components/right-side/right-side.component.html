@@ -1,0 +1,19 @@
+<div id="allRight">
+    <mat-tab-group>
+        <mat-tab label="Details"></mat-tab>
+        <mat-tab label="Map"> </mat-tab>
+        <mat-tab label="Hierarchical Tree">  
+        <div id="space"></div>
+            <span *ngIf="isOpen==false" (click)="open()" class="material-symbols-outlined">
+                chevron_right
+            </span>    
+            <span *ngIf="isOpen==true" (click)="close()" class="material-symbols-outlined">
+                expand_less
+                </span>
+                <div class="borderStyle">Testimonies Department of the Yad Vashem Archives</div>
+            <app-list *ngIf="isOpen==true"></app-list>               
+        </mat-tab>
+    </mat-tab-group>
+    </div>
+
+    

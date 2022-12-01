@@ -1,0 +1,10 @@
+<div *ngIf="this.hasTemplate==true" id="allThisRestimony">
+    <h1>Testimony of {{OneTestimony.title}}</h1>  
+    <span class="material-symbols-outlined ">
+        share
+    </span>
+    <button color="primary" mat-raised-button >Testimony</button>
+    <iframe width="50%" height="315" [src]="urlSafe"
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+    <h3>{{OneTestimony.infoText}}</h3>  
+</div>

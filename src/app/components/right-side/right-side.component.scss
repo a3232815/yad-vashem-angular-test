@@ -1,0 +1,26 @@
+$borders:2px outset orange;
+#allRight{
+    border:$borders;
+    height: 80%;
+    width: 47%; 
+    float:right; 
+    margin-top: 3rem;
+    margin-right: 4%; 
+    background-color: white;           
+}
+.borderStyle{
+    width: 90%;
+    float: right;
+    background-color:cornflowerblue;
+    margin: 0.5rem;
+    border:2px outset rgb(72, 48, 250);
+    height: 1.5rem;
+    text-align: center;
+}
+#space{
+    height:2rem;
+}
+span{
+    margin-left: 1.5%;
+    margin-top: 0.5%;
+}
